@@ -13,4 +13,4 @@ if (sinal == "-") {
 return resultado
 }
 calcular()
-console.log(val1  +  sinal  +  val2 + " = " + resultado)
+console.log(val1  + " "  + " " + sinal  +  " " + val2 + " = " + resultado)
