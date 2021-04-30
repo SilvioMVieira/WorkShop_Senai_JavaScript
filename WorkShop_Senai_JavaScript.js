@@ -1,13 +1,13 @@
 var val1 = Number(prompt("Digite um número"))
-var val2 = Number(prompt("Digite um número"))
+var sinal = prompt("Informe o tipo de calculo: \n + \n - ")
+var val2 = Number(prompt("Digite outro número"))
 var resultado = null
 
 function calcular(){
-var sinal = Number(prompt("Informe o tipo de calculo: \n 1 - somar \n 2 - subtrair"))
-if (sinal == 1) {
+if (sinal == "+") {
     resultado = val1 + val2
 }
-if (sinal == 2) {
+if (sinal == "-") {
     resultado = val1 - val2
 }
 return resultado
